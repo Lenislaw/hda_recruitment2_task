@@ -26,6 +26,7 @@ $ npm install
 ```
 
 ### Run
+Go to root directory and use command in terminal
 
 ```
 # Run frontend & backend 
@@ -41,6 +42,21 @@ $ npm run server
 ### Database
 
 You can set different database in backend/db/db.js
+By default it is 
+
+```
+// Mocked db
+const db = {
+  people: [
+    { name: 'John', age: 27 }, 
+    { name: 'Jack', age: 19 }, 
+    { name: 'Mack', age: 51 }, 
+    { name: 'Sasin', age: 70 },
+    { name: 'Richard', age: 34 }, 
+    { name: 'Andrew', age: 42 },
+  ]
+}
+```
 
 
 
