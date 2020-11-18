@@ -35,7 +35,7 @@ $ npm run start
 $ npm run client
 
 # Run backend only
-npm run server
+$ npm run server
 ```
 
 ### Database
