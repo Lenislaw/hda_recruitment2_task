@@ -20,7 +20,21 @@ PORT = 5000
 
 ### Install Dependencies (backend)
 
-Go to root directory and use command to install dependencies
+Clone repository from https://github.com/Lenislaw/hda_recruitment2_task.git 
+
+or
+
+```
+$ git clone https://github.com/Lenislaw/hda_recruitment2_task.git
+```
+
+then go to root directory 
+
+```
+$ cd hda_recruitment2_task
+```
+
+and use command to install dependencies
 
 ```
 $ npm install
