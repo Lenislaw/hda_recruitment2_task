@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Menagment</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="heading">User Managment App</h1>
+    </header>
+    <main>
+        <section class="section find-user">
+            <h2>Search member</h2>
+            <form class="form">
+                <div class="form-box">
+                    <label for="find-member">Search:</label>
+                    <input id="find-member" class="input-search" name="search" type="text" autocomplete="off"/>
+                    <div class="result hide" id="result-box"><ul id="result"><li>Nothing to find!</li></ul></div>
+                </div>
+                
+            </form>
+            
+        </section>
+        <section id="section-add" class="section add-user">
+            <h2>Add new member</h2>
+            <div id="alert-box" class="alert-box"></div>
+            <form id="add-member" class="form">
+                <div class="form-box">
+                    <label for="name">Name:</label>
+                    <input id="name" class="input-name" name="name" type="text" autocomplete="off" />
+                </div>
+                <div class="form-box">
+                    <label for="age">Age:</label>
+                    <input id="age" class="input-age" name="age" type="number" autocomplete="off" min="0"/>
+                </div>
+                <div class="form-box">
+                    <input class="btn-add"  type="submit" value="Add" />
+                    
+                </div>
+                
+            </form>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
