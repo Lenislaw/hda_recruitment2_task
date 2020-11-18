@@ -42,7 +42,7 @@ $ npm run server
 ### Database
 
 You can set different database in backend/db/db.js
-By default it is 
+by default it is 
 
 ```
 // Mocked db
