@@ -1,5 +1,5 @@
 // UI functions
-// Show Alert method
+// Show Alert function
 const showAlert = (msg, className) => {
   console.log("Show Alert type:", className, ", msg:", msg);
   // Create div
@@ -16,7 +16,7 @@ const showAlert = (msg, className) => {
     document.querySelector(".alert").remove();
   }, 3000);
 };
-// Show Results method
+// Show Results function
 const showResults = (users, fetch) => {
   console.log("Show results");
   // get list
@@ -36,7 +36,7 @@ const showResults = (users, fetch) => {
   // ul inner HTML replacement
   ul.innerHTML = results;
 };
-// Clear fields method
+// Clear fields function
 const clearFields = () => {
   console.log("Clear fields");
   document.getElementById("name").value = "";
@@ -44,7 +44,7 @@ const clearFields = () => {
 };
 // FETCH functions
 
-// Create member
+// Create member function
 const createMember = (name, age) => {
   const member = { name, age };
   return member;
