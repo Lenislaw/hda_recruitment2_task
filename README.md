@@ -20,7 +20,7 @@ PORT = 5000
 
 ### Install Dependencies (backend)
 
-Go to root directory and use command to instal dependencies
+Go to root directory and use command to install dependencies
 
 ```
 $ npm install
@@ -29,7 +29,7 @@ $ npm install
 
 ### Run
 
-Start app from root folder
+Start app from root directory
 
 ```
 # Run frontend & backend 
